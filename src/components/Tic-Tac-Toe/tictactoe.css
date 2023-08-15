@@ -1,0 +1,36 @@
+.cell{
+    padding: 10px;
+    margin: 3px;
+    background: burlywood;
+    height: 40px;
+    width: 33%;
+    border: 1px solid black;.cell{
+        padding: 10px;
+        margin: 3px;
+        background: burlywood;
+        height: 40px;
+        width: 33%;
+        border: 1px solid black;
+    
+    }
+    
+    .board{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: auto;
+        background: teal;
+        width: 500px;
+    }
+    
+
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    background: teal;
+    width: 500px;
+}
