@@ -20,6 +20,8 @@ import Checkdiff from './components/Checkdiff';
 import DiffUseMemoUseEffect from './components/DiffUseMemoUseEffect';
 import User from './components/customHooks/User';
 import { Child } from './components/SendDataFromChildToParent/Child';
+import TableComponent from './components/Table/TableComponent';
+import BreadCrumb from './components/Table/Breadcrumb';
 
 function App() {
   return (
@@ -37,11 +39,13 @@ function App() {
       {/* <EmployeeDetail /> */}
       {/* <Timer/> */}
       {/* <Table  data = {tableData}/> */}
+      {/* <TableComponent data ={tableData} /> */}
       {/* <TictacToe /> */}
       {/* {<Checkdiff />} */}
       {/* {<DiffUseMemoUseEffect />} */}
       {/* <User /> */}
-      <Child />
+      {/* <Child /> */}
+      <BreadCrumb />
     </div>
     </AppProvider>
   );
