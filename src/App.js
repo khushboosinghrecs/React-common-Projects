@@ -22,7 +22,9 @@ import User from './components/customHooks/User';
 import { Child } from './components/SendDataFromChildToParent/Child';
 import TableComponent from './components/Table/TableComponent';
 import BreadCrumb from './components/Table/Breadcrumb';
-
+import { ReecoApp } from './components/ReecoApp/ReecoApp';
+import { DownloadVedio } from './components/downloadFile/DownloadVedio';
+import {DonloadVedioFile} from './components/downloadFile/DownLoadVedioFile'
 function App() {
   return (
     <AppProvider>
@@ -45,7 +47,11 @@ function App() {
       {/* {<DiffUseMemoUseEffect />} */}
       {/* <User /> */}
       {/* <Child /> */}
-      <BreadCrumb />
+      {/* <BreadCrumb /> */}
+      {/* <ReecoApp /> */}
+      {/* <DownloadVideo /> */}
+      <DownloadVedio />
+      <DonloadVedioFile />
     </div>
     </AppProvider>
   );

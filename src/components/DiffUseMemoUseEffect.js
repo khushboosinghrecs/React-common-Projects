@@ -6,8 +6,9 @@ function MyComponent({ data }) {
   // Memoize expensive data processing
   const memoizedData = useMemo(() => {
     console.log("Calculating processed data...");
+
     // Expensive processing based on data
-    return processData(data);
+    return setProcessedData(data);
   }, [data]);
 
   // Use the processed data with side effect
