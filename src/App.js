@@ -25,6 +25,7 @@ import BreadCrumb from './components/Table/Breadcrumb';
 import { ReecoApp } from './components/ReecoApp/ReecoApp';
 import { DownloadVedio } from './components/downloadFile/DownloadVedio';
 import {DonloadVedioFile} from './components/downloadFile/DownLoadVedioFile'
+import ChessBishop from './components/ChessBishop/ChessBishop';
 function App() {
   return (
     <AppProvider>
@@ -50,8 +51,9 @@ function App() {
       {/* <BreadCrumb /> */}
       {/* <ReecoApp /> */}
       {/* <DownloadVideo /> */}
-      <DownloadVedio />
-      <DonloadVedioFile />
+      {/* <DownloadVedio />
+      <DonloadVedioFile /> */}
+      <ChessBishop />
     </div>
     </AppProvider>
   );
