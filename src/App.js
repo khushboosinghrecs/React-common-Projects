@@ -26,6 +26,7 @@ import { ReecoApp } from './components/ReecoApp/ReecoApp';
 import { DownloadVedio } from './components/downloadFile/DownloadVedio';
 import {DonloadVedioFile} from './components/downloadFile/DownLoadVedioFile'
 import ChessBishop from './components/ChessBishop/ChessBishop';
+import ColorPicker from './components/colorPicker/ColorPicker';
 function App() {
   return (
     <AppProvider>
@@ -53,6 +54,7 @@ function App() {
       {/* <DownloadVideo /> */}
       {/* <DownloadVedio />
       <DonloadVedioFile /> */}
+      <ColorPicker />
       <ChessBishop />
     </div>
     </AppProvider>

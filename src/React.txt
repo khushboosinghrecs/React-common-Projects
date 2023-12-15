@@ -1,0 +1,39 @@
+React is a popular JavaScript library for building user interfaces, and there are several common questions that developers often ask when working with React. Here are some of the top most asked common questions:
+
+1. **What is React?**
+   - This is a fundamental question that many beginners ask. React is a JavaScript library for building user interfaces, developed by Facebook.
+
+2. **What are the key features of React?**
+   - Developers often want to know about the key features of React, such as its component-based architecture, virtual DOM, and the ability to create reusable UI components.
+
+3. **What is JSX?**
+   - JSX (JavaScript XML) is a syntax extension for JavaScript recommended by React for describing what the UI should look like. It looks similar to XML/HTML and allows the mixing of HTML with JavaScript code.
+
+4. **What is a React component?**
+   - Components are the building blocks of a React application. They are reusable and can be thought of as custom HTML elements. Understanding the concept of components is crucial in React development.
+
+5. **What is the virtual DOM?**
+   - React uses a virtual DOM to improve performance by minimizing the amount of direct manipulation of the actual DOM. Changes are first made to a virtual representation of the DOM, and then React efficiently updates the real DOM.
+
+6. **What is the difference between state and props?**
+   - State and props are two important concepts in React. State is used for managing local component state, while props are used to pass data from a parent component to a child component.
+
+7. **What is the significance of keys in React lists?**
+   - When rendering lists in React, it's important to assign a unique key to each item. This helps React identify which items have changed, been added, or been removed, improving performance.
+
+8. **How does React handle forms?**
+   - Managing forms in React involves using state to track form data and handling form submissions. Developers often ask about controlled components, form validation, and handling form events.
+
+9. **What is React Router?**
+   - React Router is a library for adding navigation to React applications. It enables the creation of single-page applications with navigation similar to traditional multi-page websites.
+
+10. **How can I fetch data in React?**
+    - Fetching data is a common task in web development. In React, developers often use the `fetch` API or popular libraries like Axios to make HTTP requests and handle data fetching.
+
+11. **What is the purpose of useEffect hook?**
+    - The `useEffect` hook is used for handling side effects in functional components. It is commonly used for tasks such as data fetching, subscriptions, or manually changing the DOM.
+
+12. **How can I manage state in a functional component?**
+    - With the introduction of hooks in React, the `useState` hook allows functional components to have state. Developers often inquire about using state in functional components and how to update it.
+
+These questions cover a range of topics related to React, from basic concepts to more advanced topics like hooks and routing. Understanding these fundamentals is essential for effective React development.
