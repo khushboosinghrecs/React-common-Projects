@@ -27,6 +27,8 @@ import { DownloadVedio } from './components/downloadFile/DownloadVedio';
 import {DonloadVedioFile} from './components/downloadFile/DownLoadVedioFile'
 import ChessBishop from './components/ChessBishop/ChessBishop';
 import ColorPicker from './components/colorPicker/ColorPicker';
+import {ShoppingCart} from './components/ShoppingCart/ShoppingCart';
+import Planet from './components/SearchPlanets';
 function App() {
   return (
     <AppProvider>
@@ -54,8 +56,11 @@ function App() {
       {/* <DownloadVideo /> */}
       {/* <DownloadVedio />
       <DonloadVedioFile /> */}
-      <ColorPicker />
-      <ChessBishop />
+      {/* <ColorPicker /> */}
+      {/* <ChessBishop /> */}
+      {/* <ShoppingList /> */}
+      {/* <ShoppingCart/> */}
+    <Planet />
     </div>
     </AppProvider>
   );
