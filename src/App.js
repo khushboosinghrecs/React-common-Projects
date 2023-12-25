@@ -29,6 +29,7 @@ import ChessBishop from './components/ChessBishop/ChessBishop';
 import ColorPicker from './components/colorPicker/ColorPicker';
 import {ShoppingCart} from './components/ShoppingCart/ShoppingCart';
 import Planet from './components/SearchPlanets';
+import LazyLoad from './components/LazyLoading/LazyLoad';
 function App() {
   return (
     <AppProvider>
@@ -60,7 +61,8 @@ function App() {
       {/* <ChessBishop /> */}
       {/* <ShoppingList /> */}
       {/* <ShoppingCart/> */}
-    <Planet />
+    {/* <Planet /> */}
+    <LazyLoad />
     </div>
     </AppProvider>
   );
