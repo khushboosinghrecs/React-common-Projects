@@ -11,7 +11,6 @@ const videoNames = Object.keys(videos);
 const Vedio = ({ele}) => {
 return(
     <video style ={{width: 200, height:200}}loop controls autostart="true" autoPlay muted src={ele} />
-
 )
 }
 const Menu = ({ name, onSelectVedio }) => {
